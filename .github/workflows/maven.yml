@@ -32,7 +32,7 @@ jobs:
     - uses: mr-smithers-excellent/docker-build-push@v5
       name: Build and Push docker image
       with:
-        image: aldiab/CIProject
+        image: aldiab/ciproject
         registry: docker.io
         dockerfile: Dockerfile.ci
         username: ${{ secrets.DOCKER_USERNAME }}
