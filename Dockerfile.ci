@@ -1,3 +1,2 @@
 From openjdk:latest
 copy ./target /
-Run java -jar /CIProject-1.0-SNAPSHOT.jar
